@@ -1,0 +1,148 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+}
+
+/*
+#17252a principal
+#2b7a78 menu
+#3aafa9 resaltar
+#def2f1 texto
+#feffff titulo
+
+#163737
+#88a590
+#b3c1b4
+
+#fgb17a anaranjado
+
+font-family: Poppins, sans-serif;
+transition: color .3s ease;
+
+*/
+
+nav {
+    background: #1b263b;
+    height: 50px;
+    width: 100%;
+    margin: 0%;
+    position: fixed; /* Clava el nav en la parte superior */
+    top: 0;
+    z-index: 1000; /* Asegura que el nav esté sobre el contenido */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 0%;
+    margin:0%;
+    margin-left: 50px;
+    height: 45px;
+}
+
+nav a img {
+    padding: 0%;
+    margin:0%;
+    height: 45px;
+    filter: invert(60%);
+    transition: filter .3s ease;
+}
+
+nav a img:hover {
+    filter: invert(80%);
+}
+
+nav ul {
+    padding: 0%;
+    margin:0%;
+    width: 40%;
+    margin-right: 30px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav ul li a {
+    margin: 0%;
+    padding: 0%;
+    color: #e0e1dd;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color .3s ease; /* Para una transición suave */
+}
+
+nav ul li a:hover {
+    color: #778da9;
+}
+
+header {
+    background: #0d1b2a;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SobreMi {
+    background: linear-gradient(#024946, #00181a);
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Habilidades {
+    background: linear-gradient(#1a1700, #001a09);
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Proyectos {
+    background: linear-gradient(#001a09, #1a0000);
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contacto {
+    background: linear-gradient(#1a0000, #000000);
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: #264653;
+    color: #acb4ad;
+    height: 50px;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
