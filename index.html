@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/png" href="./img/logo_circulo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Portafolio</title>
 </head>
 <body>
@@ -18,16 +21,27 @@
         </ul>
     </nav>
     <header id="Header">
-        <div>
+        <div class="div_titulo">
             <h1>David de Hoyos</h1>
-            <h3>Frontend Developer 💻</h3>
-            <button><a href="#Contacto">Ttrabajemos Juntos</a></button>
-            <button><a href="">Curriculum</a></button>
+            <h3>Frontend Developer</h3>
+            <div class="div_btn">
+                <a href="#Contacto">Trabajemos Juntos</a>
+                <a href="./curriculum/cv.pdf" class="download-button" download="CV David de Hoyos.pdf">Curriculum</a>
+            </div>
         </div>
-        <div></div>
     </header>
     <section id="SobreMi">
-        <h2>Sobre Mí</h2>
+        <article>
+            <div class="div_foto">
+                <img src="./img/yo_animado.png" alt="david animado">
+            </div>
+            <div class="div_info">
+                <h2>Sobre mí</h2>
+                <h3>David Acisclo de Hoyos</h3>
+                <p>Soy un desarrollador frontend con una sólida experiencia en la creación de interfaces de usuario intuitivas y visualmente atractivas. Utilizo tecnologías modernas como React, Vue y Gatsby para desarrollar aplicaciones web responsivas, centradas en la accesibilidad y el rendimiento.</p>
+                <p>Mi objetivo es aplicar mis habilidades técnicas y conocimientos en diseño para crear productos digitales de alta calidad que no solo cumplan con los requisitos funcionales, sino que también proporcionarán una experiencia de usuario excepcional.</p>
+            </div>
+        </article>
     </section>
     <section id="Habilidades">
         <h2>Habilidades</h2>
