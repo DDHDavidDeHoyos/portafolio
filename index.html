@@ -23,7 +23,7 @@
     <header id="Header">
         <div class="div_titulo">
             <h1>David de Hoyos</h1>
-            <h3>Frontend Developer</h3>
+            <h2>Frontend Developer</h2>
             <div class="div_btn">
                 <a href="#Contacto">Trabajemos Juntos</a>
                 <a href="./curriculum/cv.pdf" class="download-button" download="CV David de Hoyos.pdf">Curriculum</a>
@@ -36,24 +36,108 @@
                 <img src="./img/yo_animado.png" alt="david animado">
             </div>
             <div class="div_info">
-                <h2>Sobre mí</h2>
-                <h3>David Acisclo de Hoyos</h3>
-                <p>Soy un desarrollador frontend con una sólida experiencia en la creación de interfaces de usuario intuitivas y visualmente atractivas. Utilizo tecnologías modernas como React, Vue y Gatsby para desarrollar aplicaciones web responsivas, centradas en la accesibilidad y el rendimiento.</p>
-                <p>Mi objetivo es aplicar mis habilidades técnicas y conocimientos en diseño para crear productos digitales de alta calidad que no solo cumplan con los requisitos funcionales, sino que también proporcionarán una experiencia de usuario excepcional.</p>
+                <h3>Sobre mí</h3>
+                <h4>David Acisclo de Hoyos</h4>
+                <p>Soy un desarrollador frontend con una sólida experiencia en la creación de interfaces de usuario intuitivas y visualmente atractivas. Utilizando tecnologías modernas para desarrollar aplicaciones web responsivas, centradas en la accesibilidad y el rendimiento.</p>
+                <p>Mi objetivo es aplicar mis habilidades técnicas y conocimientos en diseño para crear productos digitales de alta calidad que no solo cumplan con los requisitos funcionales, sino que también proporcionen una experiencia de usuario excepcional.</p>
             </div>
         </article>
     </section>
     <section id="Habilidades">
-        <h2>Habilidades</h2>
+        <article>
+            <h3>Habilidades</h3>
+            <div class="div_habilidades">
+                <div class="info_habilidades">
+                    <img src="./img/codigo.png" alt="código">
+                    <h4>Frontend</h4>
+                    <p>Poseo conocimiento en diversos lenguajes de programación y frameworks, lo que me permite abordar proyectos desde múltiples enfoques. Con una combinación de habilidades técnicas y creativas, siendo capaz de desarrollar soluciones innovadoras y eficientes. Estoy constantemente aprendiendo y actualizándome en las últimas tecnologías para asegurar que mis proyectos sean modernos y de alta calidad.</p>
+                </div>
+                <div class="lenguajes_habilidades">
+                    <h4>Lenguajes y Frameworks</h4>
+                    <div>
+                        <span>HTML5</span>
+                        <span>Css 3</span>
+                        <span>JavaScript</span>
+                        <span>React.js</span>
+                        <span>React Native</span>
+                        <span>Node.js</span>
+                        <span>Git</span>
+                        <span>Bootstrap</span>
+                        <span>Sass</span>
+                        <span>Redux</span>
+                        <span>JQuery</span>
+                        <span>LESS</span>
+                        <span>GitHub</span>
+                        <span>TypeScript</span>
+                        <span>Angular</span>
+                        <span>Vue.js</span>
+                        <span>Tailwind</span>
+                    </div>
+                </div>
+            </div>
+        </article>
     </section>
     <section id="Proyectos">
-        <h2>Proyectos</h2>
+        <article>
+            <h3>Proyectos</h3>
+            <div class="cont_proyectos">
+                <div>
+                    <span>Coming soon...</span>
+                </div>
+                <div>
+                    <span>Coming soon...</span>
+                </div>
+                <div>
+                    <span>Coming soon...</span>
+                </div>
+                <div>
+                    <span>Coming soon...</span>
+                </div>
+            </div>
+            <a href="">Ver mas</a>
+        </article>
     </section>
     <section id="Contacto">
-        <h2>Contacto</h2>
+        <article>
+            <h3>Contáctame</h3>
+            <div class="div_contacto">
+                <div class="div_formulario">
+                    <div class="contact-form-container">
+                        <form id="contact-form">
+                            <div>
+                                <label for="user_email">Correo Electrónico:</label>
+                                <input type="email" id="user_email" name="user_email" required>
+
+                                <label for="user_name">Nombre:</label>
+                                <input type="text" id="user_name" name="user_name" required>
+
+                                <label for="message">Mensaje:</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="div_contactos">
+                    <img src="./img/contacto.png" alt="contacto">
+                    <div class="cont_p">
+                        <p>Si te interesó mi web, te invito a que te comuniques conmigo mediante este formulario o por mis redes:</p>
+                        <div>
+                            <a href="mailto:daviddehoyos04@gmail.com"><img src="./img/Gmail.png" alt="Gmail"></a>
+                            <a href="https://api.whatsapp.com/send?phone=5493521477853"><img src="./img/whatsapp.png" alt="Whatsapp"></a>
+                            <a href="https://www.linkedin.com/in/david-de-hoyos-a137ba237/"><img src="./img/linkedin.png" alt="Linkedin"></a>
+                            <a href="https://github.com/DDHDavidDeHoyos"><img src="./img/github.png" alt="GitHub"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </article>
     </section>
     <footer>
         <p>&copy; 2024 David de Hoyos. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
