@@ -13,3 +13,17 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             alert('Error en el envío: ' + JSON.stringify(error));
         });
 });
+
+
+const btn_menu = document.querySelector("#btn_menu");
+const cont_menu = document.querySelector("#cont_menu")
+
+btn_menu.addEventListener("click", () => {
+    if (cont_menu.className === "cont_menu") {
+        cont_menu.className = "ocultar_menu"
+        btn_menu.src = "./img/menu.png"
+    } else {
+        cont_menu.className = "cont_menu"
+        btn_menu.src = "./img/x.png"
+    }
+})
